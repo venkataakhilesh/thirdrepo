@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.image{
+    background-image: url("https://media.cdn-jaguarlandrover.com/api/v2/images/98135/w/1600.jpg");
+    width: 100%;
+    height: 100vh;
+}
+
+#main {
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 500px;
+    color: white;
+}
+
+.content{
+      width: 300px;
+      height: 150px;
+      background-color: antiquewhite;
+      padding: 20px;
+      border: 10px solid yellow;
+      /* box-sizing: content-box; */
+}
+
+.border{
+     width: 300px;
+     height: 150px;
+     background-color: antiquewhite;
+     padding: 20px;
+     border: 10px solid yellow;
+     /* box-sizing: border-box; */
+}
+
+

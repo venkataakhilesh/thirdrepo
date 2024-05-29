@@ -1,0 +1,70 @@
+/* 
+selsctor
+property:value;
+*/
+/* p{
+     text-align: center;
+     ***********font properties in css***********
+     font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+     font-family: monospace;  
+
+     shorthand property of font  
+     font: italic 30px sans-serif;
+     line-height: 100px;
+}  */
+
+/* in css, box model consists of 4 properties, content , padding, border ,margin */
+/* defined in the html it will be styled around box model */
+
+div{
+    text-align: center;
+    /* width: 200px;
+    border-color: red;
+    border-style: solid;
+    border-width: 20px; */
+    /* border:2px dotted red; */
+    /* border: 2px double red; */
+    border: 2px solid red;
+    /* border: 2px groove red; */
+    /* border: 2px dashed red; */
+     border-left: 2px double blue;
+    border-top: 3px dotted green;
+    border-right: 2px dashed rgb(255, 0, 191);
+    border-bottom: 3px groove peru;
+    /* background-color: bisque;  */
+
+    /* in css ,margin and padding are the property to display the element, where margin is the space that gets 
+    applied around the element and padding is the space that gies applied between border and content; */
+    
+      /* propertyname :top right border-left */
+      border-radius: 200px 30px 400px 50px;
+      padding: 40px 50px 60px 70px;
+
+      /* margin: 50px 60px 70px 90px; */
+      /* margin: 200px 300px; */
+      margin: auto;
+
+      /* text-properties are applied to the text of the element */
+      font-size: 30px;
+      text-align: end;
+      /* text-decoration: underline; */
+      /* text-transform: lowercase; */
+      text-shadow: -2px -2px red;
+}
+
+  /* we have differnt ways of choosing color for the element and they are 1.by name 2. hex code 3. rgb 4.hsl */
+
+a{
+    text-decoration: none;
+    /* color: black;
+    color:rgb(255,20,85)
+     */
+     color: rgb(30,40,50,);
+     margin-left: 100px;
+     font-size: 30px;
+     color: aqua;
+     
+}

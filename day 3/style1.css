@@ -1,0 +1,27 @@
+#fixed {
+    border: 1px solid red;
+    width: 150px;
+    height: 30px;
+    padding-top: 5px;
+  
+    background-color: tomato;
+    border-radius: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .sticky {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: beige;
+    position: sticky;
+    top: 0;
+  }
+  
+  ul {
+    display: flex;
+    gap: 20px;
+  }

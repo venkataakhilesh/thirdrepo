@@ -1,0 +1,28 @@
+#parent{
+    background-color:beige;
+    border: 2px solid grey;
+    width: 80%;
+    margin: auto;
+}
+
+.box{
+    background-color: aqua;
+    border: 2px solid gray ;
+    width: 49.5%;
+    height: 25vh;
+    text-align: center;
+}
+
+#item1{
+ float:left
+}
+
+#item2{
+    float: right;
+}
+#item3{
+    width: 99.5%;
+    clear: both;
+    height: 300px;
+
+}
