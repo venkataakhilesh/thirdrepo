@@ -1,8 +1,7 @@
 /* *{
-margin:0;
-padding:0;
+    margin: 0;
+    padding: 0;
 }
-
 #parent{
     background-color:beige;
     border: 2px solid grey;
@@ -32,22 +31,22 @@ padding:0;
 
 } */
 
-
+#main {
+  width: 100%;
+  height: 100vh;
+  background-color: tomato;
+  
 }
 
 .box {
   background-color: white;
   width: 40%;
   height: 30vh;
-  margin: 1#main {
-  width: 100%;
-  height: 100vh;
-  background-color: tomato;
-  0px auto;
+  margin: 10px auto;
   border: 1px solid black;
   text-align: center;
-  Important  */
-/*   position: absolute;
+  /* Important  */
+  position: absolute;
   top: 150px;
   left: 400px;
 }
@@ -64,9 +63,8 @@ padding:0;
     left: 480px;
 }
 
-/* #item3{
+#item3{
     z-index: 3;
     top: 300px;
     left: 520px;
 }
- 
