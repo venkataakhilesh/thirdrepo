@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+}
+
+.child{
+    background-color: wheat;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+/* mobile - break point --100px to 600px */
+/* tablets - breakpoint -- 600px to 768px  */
+/* desktop - 768 to 1280  */
+
+/* media qurey in the same css file also, it should be written at the bottom of the css file  */
+
+@media only screen and (min-width:100px) and (max-width:500px){
+    h1{
+        color: blue;
+    }
+    .parent{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width:680px) and (max-width:1080px){
+  h1{
+    background-color: yellow;
+    color: red;  
+  }
+}

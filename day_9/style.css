@@ -1,0 +1,103 @@
+  div {
+        background-color: lightblue;
+        color: darkblue;
+        font-size: 18px;
+}
+     
+.box {
+        width: 200px;
+        height: 150px;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 20px;
+}
+.container{
+          display: flex;
+          background-color: blueviolet;
+          width: 500px;
+          height: 500px;
+          justify-content: center;
+          align-items: center;
+}
+.centered{
+         background-color: rgb(18, 168, 243);
+           width: 180px;
+           height: 180px;
+
+}
+a{
+    color: red;
+}
+a:hover{
+    color: rgb(8, 212, 59);
+ }
+ @media  screen and (min-width: 300px) and (max-width: 600px) {
+    body {
+        background-color: lightgrey;
+    }
+}
+
+#parent2{
+
+    background-color: beige;
+    
+    display:grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    grid-gap:10px;
+    
+    }
+    
+    .childs{
+    
+    align-content: center;
+    text-align: center;
+    border:2px solid black;
+    
+    
+    }
+    
+    #child1{
+    
+    
+        background-color: hotpink;
+        border:2px solid black;
+    }
+    
+    #child2{
+    
+    
+        background-color: rgb(118, 204, 27);
+        border:2px solid black;
+    }
+    
+    #child3{
+    
+    
+        background-color: rgb(234, 194, 75);
+        border:2px solid black;
+    }
+    
+    #child4{
+    
+    
+        background-color: rgb(69, 107, 219);
+        border:2px solid black;
+    }
+    
+    #child5{
+    
+    
+        background-color: rgb(188, 59, 208);
+        border:2px solid black;
+    }
+    #child6{
+    
+    
+        background-color: rgb(92, 245, 222);
+        border:2px solid black;
+    }
+
+ 
+    
+  

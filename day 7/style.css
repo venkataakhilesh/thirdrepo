@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table, tr,th,td{
+    border: 2px solid gray;
+    padding: 10px;
+}
+table{
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
+ tr:nth-child(odd){
+    background-color:coral ;
+ }
+
+ol{
+    list-style-type: armenian;
+    margin-left: 100px;
+    list-style:"🏎️" ;
+}
+li{
+    width: 30px;
+    height: 30px;
+}
+/* pseudo classes and selectores */
+a:active{
+    color: darkcyan;
+}
+input:focus{
+    background-color: brown;
+}
+a:hover{
+    background-color: blueviolet;
+
+}
+a:visited{
+    color:red;
+}
+div p:last-child{
+    font-weight: 800;
+    font-size: 30px;
+    color: blue;
+}
+
+div p::first-letter{
+    font-size: 40px;
+}
+
+div p::before{
+    content:" before test";
+    color: yellowgreen;
+}
+div p:after {
+    content: "after test";
+    color: yellowgreen;
+}

@@ -1,0 +1,122 @@
+/* css animation allows you to create smooth transitions between different states of an element  */
+/* keyframes and animation property  */
+
+.box{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    background-color:blue;
+    animation: scale ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: 10em;
+    color: red;
+
+}
+
+/* @keyframes changercolor{
+    0%{
+        background-color: yellow;
+        transform: translateX(0);
+        transform: translate3d(100px);
+        transform: rotate(45deg);
+    
+    }
+    50%{
+        background-color: rgb(23, 242, 143);
+        transform: translatex(200px);
+        transform: translate3d(200px);
+        transform: rotate(360deg);
+    
+    }
+    75%{
+        background-color: rgb(46, 12, 234);
+        transform: translatey(300px);
+        transform: translate3d(500px);
+        transform: rotate(60deg);
+    }
+    100%{
+        background-color: aqua;
+        transform: translatex(-300px);
+        transform: translate3d(800px);
+    }
+} */
+
+@keyframes scale{
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100%{
+    transform: scale(1);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90%{
+    transform: scale(1.5);
+    background-color:yellowgreen;
+  }
+}
+
+.ball{
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    0%,20%,50%,80%,100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-350px);
+    }
+    70%{
+        transform: translateY(-150px);
+    }
+    80%{
+        transform: translateX(400px);
+    }
+    20%{
+        transform: translateX(200px);
+    }
+}
+.car{
+    font-size: 10em;
+    margin-right: -10px;
+
+    text-align: center;
+    animation: movingcar 2s infinite;
+
+
+}
+@keyframes movingcar{
+    from{
+        transform: translatex(500px);
+    }
+    to{
+        transform: translateX(100px);
+    }
+}
+.duck{
+    font-size: 10em;
+    animation: flyingduck 2s infinite;
+}
+@keyframes flyingduck{
+  40%{
+    transform: translateY(0px);
+  }
+  90%{
+      transform: translateY(-600px);
+  }
+}

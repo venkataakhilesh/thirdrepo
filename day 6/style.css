@@ -1,0 +1,38 @@
+/* p{
+    width: 200px;
+    height: 100px;
+    background-color: bisque;
+    /* overflow: visible; */
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    /* overflow: auto;
+} */
+
+/* img{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    opactiy takes value from 0 to 1, it will make the element transport according to the value  */
+    /* opacity: 0.3; */
+    /* object-fit: none/fill/contain/cover; */
+/* }
+img:hover{
+    opacity: 1;
+} */ 
+
+.linear{
+    background-image: linear-gradient(90deg, red 10%, green, blue);
+    width: 100%;
+    height: 150px;
+    border: 1px solid red;
+    /* background-color: beige; */
+
+}
+.radial{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    /* background-color: beige; */
+    margin-top: 20px;
+    background: radial-gradient(red,green,blue);
+}
